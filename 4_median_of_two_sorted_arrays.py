@@ -21,7 +21,7 @@ Example 2:
 Input: nums1 = [1,2], nums2 = [3,4]
 Output: 2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
- 
+
 
 Constraints:
 
@@ -78,7 +78,7 @@ def solve(nums1, nums2):
     if len(merged_list) % 2 != 0:
 
         median = merged_list[median_index]
-    
+
     # even
     else:
 
@@ -99,7 +99,7 @@ def solve(nums1, nums2):
 
 
 if __name__ == '__main__':
-    
+
     inputs  = [[[1,3], [2]],
                [[1,2], [3,4]],
               ]
